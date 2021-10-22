@@ -1,0 +1,373 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(242, 206, 218, 0.6);
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 55px;
+    width: 100%;
+    background-color: rgba(210, 49, 102, 0.4);
+    position: fixed;
+    z-index: 10;
+}
+  
+nav .logo {
+    width: 160px;
+    height: 70px;
+    margin-left: 160px;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 41px;
+    list-style: none;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgba(21, 1, 1, 0.6);
+}
+  
+nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+  
+nav ul li .home {
+    font-weight: 700;
+    font-size: 18px;
+    color: #d23166;
+}
+  
+nav .h_btn {
+    width: 10%;
+    height: 49px;
+    background: #d23166;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-family: Hind Madurai;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fafafa;
+    margin-right: 170px;
+}
+  
+nav .h_btn:hover {
+    background-color: brown;
+}
+.contactsSection{
+    background:url('../img/imgForContacts.jpg') center center/cover no-repeat;
+    width:100%;
+    opacity:.8;
+    height:270px;
+    display:flex;
+    justify-content: center;
+}
+.textContact{
+    font-size: 60px;
+    margin-top: 100px;
+    color:white;
+    font-family:'Fredoka One';
+    font-weight: 400;
+}
+.tableSection{
+    background-color:  rgba(214, 61, 112, 0.418);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+td, th{
+    text-align: center;
+    font-size:20px;
+}
+.table2Section{
+    background: rgba(99, 139, 212, 0.459);
+}
+body{
+    background: cornsilk;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background: #0a0808;
+    padding-top: 50px;
+}
+  
+footer .f_logo {
+    width: 190px;
+    height: 90px;
+    margin-left: 50px;
+}
+  
+footer .f_title_1 {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+}
+  
+footer .f_int {
+    margin-top: 8px;
+    margin-left: 50px;
+}
+  
+footer .f_int_ico {
+    width: 25px;
+    height: 25px;
+}
+  
+footer .f_ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    height: 30px;
+    list-style: none;
+    margin-right: 90px;
+    margin-top: 60px;
+}
+  
+footer .f_ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+  
+footer .f_ul li .f_home {
+    color: white;
+    font-weight: 500;
+}
+  
+footer .f_ul li:hover {
+    text-decoration: underline;
+}
+  
+footer .f_title_2 {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+  
+footer .f_form input {
+    border: 2px solid #D64374;
+    border-radius: 5px;
+    height: 55px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 32px;
+}
+  
+footer .f_form button {
+    width: 100px;
+    height: 58px;
+    background: #D64374;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+  
+footer .f_form button:hover {
+    background-color: brown;
+}
+@media (max-width: 1400px) {
+    header {
+      height: 80px;
+    }
+    nav {
+      flex-wrap: nowrap;
+    }
+    nav a .logo {
+      width: 140px;
+      height: 65px;
+      margin-left: 50px;
+      margin-top: 10px;
+    }
+    nav ul {
+      margin-right: 20px;
+    }
+    nav .h_btn {
+      margin-right: 60px;
+    }
+    .h_container {
+      padding-top: 100px;
+    }
+    .h_container .title_col {
+      margin-top: 100px;
+    }
+    .h_container .title_col .title {
+      display: inline-block;
+      font-size: 50px;
+      width: 500px;
+    }
+    .h_container .title_col .title .h_title {
+      font-size: 50px;
+    }
+    .h_container .title_col .subtitle {
+      width: 500px;
+      display: inline-block;
+    }
+    .h_container .ice_1 {
+      position: absolute;
+      width: 400px;
+      height: 520px;
+      top: 140px;
+      right: 90px;
+    }
+    .one .ice_2 {
+      width: 445px;
+      height: 410px;
+      margin-top: 80px;
+    }
+    .two .twoblock .ice_img {
+      width: 400px;
+      height: 350px;
+    }
+  }
+
+@media (max-width:1200px){
+    header {
+        height: 80px;
+      }
+      nav {
+        flex-wrap: nowrap;
+      }
+      nav a .logo {
+        width: 140px;
+        height: 65px;
+        margin-left: 50px;
+        margin-top: 10px;
+      }
+      nav ul {
+        margin-right: 20px;
+      }
+      nav .h_btn {
+        margin-right: 60px;
+      }
+      .h_container {
+        padding-top: 100px;
+      }
+      .h_container .title_col {
+        margin-top: 100px;
+      }
+      .h_container .title_col .title {
+        display: inline-block;
+        font-size: 50px;
+        width: 500px;
+      }
+      .h_container .title_col .title .h_title {
+        font-size: 50px;
+      }
+      .h_container .title_col .subtitle {
+        width: 500px;
+        display: inline-block;
+      }
+      .h_container .ice_1 {
+        position: absolute;
+        width: 400px;
+        height: 520px;
+        top: 140px;
+        right: 10px;
+      }
+      .min_block {
+        height: 370px;
+        padding-top: 90px;
+      }
+      .min_block_q {
+        width: 190px;
+      }
+      .min_block_q_subtitle {
+        width: 170px;
+      }
+      .one .ice_2 {
+        width: 365px;
+        height: 350px;
+        margin-left: 50px;
+      }
+      .two .twoblock .ice_img {
+        width: 800px;
+        height: 500px;
+      }
+      .two .none {
+        display: none;
+      }
+      footer .f_form input {
+        width: 200px;
+      }
+    .textContact{
+        font-size: 50px;
+    }
+    td, th{
+        font-size:17px;
+    }
+}
+@media (max-width:991px){
+    td, th{
+        font-size:15px;
+    }
+    .textContact{
+        font-size: 45px;
+    }
+    header {
+        height: 80px;
+      }
+      header nav ul li a {
+        font-size: 14px;
+      }
+      header .h_btn {
+        width: 130px;
+        height: 40px;
+      }
+      .h_container .ice_1 {
+        display: none;
+      }
+      .h_container .title_col {
+        margin-left: 90px;
+      }
+      .two .twoblock .ice_img {
+        width: 560px;
+        height: 420px;
+      }
+      .min_block .q_none {
+        display: none;
+      }
+      .one {
+        height: 460px;
+      }
+      .one .textb_title {
+        width: 500px;
+        font-size: 50px;
+      }
+      .one .ice_2 {
+        display: none;
+      }
+      footer {
+        height: 130px;
+        padding-top: 0;
+      }
+      footer .col_none {
+        display: none;
+      }
+      footer .f_ul {
+        width: 500px;
+        margin-left: 70px;
+      }
+}

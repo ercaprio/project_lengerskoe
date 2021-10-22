@@ -1,0 +1,644 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+header {
+  width: 100%;
+  height: 800px;
+  background-color: rgba(242, 206, 218, 0.3);
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 80px;
+  margin-bottom: 55px;
+  width: 100%;
+  background-color: rgba(210, 49, 102, 0.1);
+  position: fixed;
+  z-index: 10;
+}
+
+nav .logo {
+  width: 160px;
+  height: 70px;
+  margin-left: 160px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: 41px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  color: rgba(21, 1, 1, 0.6);
+}
+
+nav ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+nav ul li .home {
+  font-weight: 700;
+  font-size: 18px;
+  color: #d23166;
+}
+
+nav .h_btn {
+  width: 165px;
+  height: 49px;
+  background: #d23166;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fafafa;
+  margin-right: 170px;
+}
+
+nav .h_btn:hover {
+  background-color: brown;
+}
+
+.h_container {
+  padding-top: 150px;
+}
+
+.h_container .title_col {
+  margin-top: 130px;
+  margin-left: 50px;
+  width: 680px;
+}
+
+.h_container .title_col .uptitle {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #4b3e3e;
+  margin-left: 5px;
+}
+
+.h_container .title_col .title {
+  width: 665px;
+  height: 130px;
+  font-family: Fredoka One;
+  font-weight: 400;
+  font-size: 58px;
+  color: rgba(15, 1, 1, 0.9);
+  line-height: 120.5%;
+}
+
+.h_container .title_col .title .h_title {
+  font-family: Fredoka One;
+  font-weight: 400;
+  font-size: 58px;
+  color: #d23166;
+  line-height: 120.5%;
+}
+
+.h_container .title_col .subtitle {
+  width: 523px;
+  height: 78px;
+  font-family: Hind Madurai;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(15, 1, 1, 0.6);
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.h_container .title_col .title_btn {
+  width: 165px;
+  height: 49px;
+  background: #d23166;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fafafa;
+  margin-right: 170px;
+}
+
+.h_container .title_col .title_btn:hover {
+  background-color: brown;
+}
+
+.h_container .ice_1 {
+  width: 500px;
+  height: 610px;
+}
+
+.min_block {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 50px;
+}
+
+.min_block_q {
+  width: 250px;
+  height: 200px;
+  border: 2px solid rgba(204, 204, 204, 0.2);
+  border-radius: 10px;
+}
+
+.min_block_q:hover {
+  box-shadow: 4px 4px 8px 4px rgba(204, 204, 204, 0.3);
+}
+
+.min_block_q_img_1 {
+  width: 120px;
+  height: 95px;
+  margin: 0 auto;
+  display: block;
+}
+
+.min_block_q_img_2 {
+  width: 90px;
+  height: 95px;
+  margin: 0 auto;
+  display: block;
+}
+
+.min_block_q_img_3, .min_block_q_img_4 {
+  width: 110px;
+  height: 95px;
+  margin: 0 auto;
+  display: block;
+}
+
+.min_block_q_title {
+  font-family: 'Hind Madurai';
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.min_block_q_subtitle {
+  width: 198px;
+  height: 35px;
+  font-family: 'Hind Madurai';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.one {
+  width: 100%;
+  height: 545px;
+  background-color: #F8EDF0;
+  position: relative;
+}
+
+.one .ice_2 {
+  width: 580px;
+  height: 500px;
+  margin-left: 130px;
+}
+
+.one .ice_2:hover {
+  transform: scale(0.8);
+}
+
+.one .textb {
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 45px;
+}
+
+.one .textb_title {
+  width: 349px;
+  height: 99px;
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44px;
+  color: #150101;
+  line-height: 49px;
+  margin-bottom: 16px;
+}
+
+.one .textb_subtitle {
+  width: 442px;
+  height: 58px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(21, 1, 1, 0.6);
+  line-height: 24px;
+}
+
+.one .textb .t_btn {
+  width: 165px;
+  height: 49px;
+  background: #d23166;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fafafa;
+  margin-right: 170px;
+}
+
+.one .textb .t_btn:hover {
+  background-color: brown;
+}
+
+.two {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.two h1 {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 40px;
+  font-family: 'Hind Madurai';
+  font-weight: 600;
+  font-size: 44px;
+  color: #150101;
+}
+
+.two .twoblock {
+  width: 580px;
+  height: 415px;
+  margin: 35px 70px;
+}
+
+.two .twoblock .ice_img:hover {
+  transform: scale(1.2);
+}
+
+.two .twoblock_title {
+  margin-top: 80px;
+  margin-bottom: 11px;
+  font-family: 'Hind Madurai';
+  font-weight: 700;
+  font-size: 26px;
+  color: black;
+}
+
+.two .twoblock_subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(21, 1, 1, 0.6);
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+
+.two .twoblock_price {
+  margin-bottom: 16px;
+  font-family: 'Hind Madurai';
+  font-weight: 500;
+  font-size: 26px;
+  color: black;
+}
+
+.two .twoblock_btn {
+  width: 165px;
+  height: 49px;
+  background: #d23166;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fafafa;
+  margin-right: 170px;
+}
+
+.two .twoblock_btn:hover {
+  background-color: brown;
+}
+
+.three {
+  width: 100%;
+  height: 280px;
+  padding: 50px;
+  background-color: rgba(242, 206, 218, 0.3);
+}
+
+.three_title {
+  ont-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  color: #000;
+  text-align: center;
+}
+
+.three_form {
+  margin: 0 auto;
+  width: 641px;
+  height: 74px;
+  margin-top: 28px;
+}
+
+.three_form form input {
+  width: 503px;
+  height: 74px;
+  background: #fafafa;
+  border-radius: 5px;
+  border: 2px solid rgba(204, 204, 204, 0.4);
+  padding-left: 30px;
+}
+
+.three_form form button {
+  width: 134px;
+  height: 70px;
+  background: #d64374;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: white;
+  border: none;
+}
+
+.three_form form button:hover {
+  background-color: brown;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background: #0a0808;
+  padding-top: 50px;
+}
+
+footer .f_logo {
+  width: 190px;
+  height: 90px;
+  margin-left: 50px;
+}
+
+footer .f_title_1 {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+}
+
+footer .f_int {
+  margin-top: 8px;
+  margin-left: 50px;
+}
+
+footer .f_int_ico {
+  width: 25px;
+  height: 25px;
+}
+
+footer .f_ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 400px;
+  height: 30px;
+  list-style: none;
+  margin-right: 90px;
+  margin-top: 60px;
+}
+
+footer .f_ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer .f_ul li .f_home {
+  color: white;
+  font-weight: 500;
+}
+
+footer .f_ul li:hover {
+  text-decoration: underline;
+}
+
+footer .f_title_2 {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+footer .f_form input {
+  border: 2px solid #D64374;
+  border-radius: 5px;
+  height: 55px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-left: 32px;
+}
+
+footer .f_form button {
+  width: 100px;
+  height: 58px;
+  background: #D64374;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+
+footer .f_form button:hover {
+  background-color: brown;
+}
+
+@media (max-width: 1400px) {
+  header {
+    height: 700px;
+  }
+  nav {
+    flex-wrap: nowrap;
+  }
+  nav a .logo {
+    width: 140px;
+    height: 65px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  nav ul {
+    margin-right: 20px;
+  }
+  nav .h_btn {
+    margin-right: 60px;
+  }
+  .h_container {
+    padding-top: 100px;
+  }
+  .h_container .title_col {
+    margin-top: 100px;
+  }
+  .h_container .title_col .title {
+    display: inline-block;
+    font-size: 50px;
+    width: 500px;
+  }
+  .h_container .title_col .title .h_title {
+    font-size: 50px;
+  }
+  .h_container .title_col .subtitle {
+    width: 500px;
+    display: inline-block;
+  }
+  .h_container .ice_1 {
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    top: 140px;
+    right: 90px;
+  }
+  .one .ice_2 {
+    width: 445px;
+    height: 410px;
+    margin-top: 80px;
+  }
+  .two .twoblock .ice_img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 1200px) {
+  header {
+    height: 700px;
+  }
+  nav {
+    flex-wrap: nowrap;
+  }
+  nav a .logo {
+    width: 140px;
+    height: 65px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  nav ul {
+    margin-right: 20px;
+  }
+  nav .h_btn {
+    margin-right: 60px;
+  }
+  .h_container {
+    padding-top: 100px;
+  }
+  .h_container .title_col {
+    margin-top: 100px;
+  }
+  .h_container .title_col .title {
+    display: inline-block;
+    font-size: 50px;
+    width: 500px;
+  }
+  .h_container .title_col .title .h_title {
+    font-size: 50px;
+  }
+  .h_container .title_col .subtitle {
+    width: 500px;
+    display: inline-block;
+  }
+  .h_container .ice_1 {
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    top: 140px;
+    right: 10px;
+  }
+  .min_block {
+    height: 370px;
+    padding-top: 90px;
+  }
+  .min_block_q {
+    width: 190px;
+  }
+  .min_block_q_subtitle {
+    width: 170px;
+  }
+  .one .ice_2 {
+    width: 365px;
+    height: 350px;
+    margin-left: 50px;
+  }
+  .two .twoblock .ice_img {
+    width: 800px;
+    height: 500px;
+  }
+  .two .none {
+    display: none;
+  }
+  footer .f_form input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    height: 650px;
+  }
+  header nav ul li a {
+    font-size: 14px;
+  }
+  header .h_btn {
+    width: 130px;
+    height: 40px;
+  }
+  .h_container .ice_1 {
+    display: none;
+  }
+  .h_container .title_col {
+    margin-left: 90px;
+  }
+  .two .twoblock .ice_img {
+    width: 560px;
+    height: 420px;
+  }
+  .min_block .q_none {
+    display: none;
+  }
+  .one {
+    height: 460px;
+  }
+  .one .textb_title {
+    width: 500px;
+    font-size: 50px;
+  }
+  .one .ice_2 {
+    display: none;
+  }
+  footer {
+    height: 130px;
+    padding-top: 0;
+  }
+  footer .col_none {
+    display: none;
+  }
+  footer .f_ul {
+    width: 500px;
+    margin-left: 70px;
+  }
+}
